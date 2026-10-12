@@ -1,2 +1,2 @@
 # PYTHON
-Para exercicios feitos em python
+Para consolidar as minhas habilidades em python 
