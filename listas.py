@@ -64,10 +64,18 @@ for num in nums2:
            nums_filtrados2.append(num)
 
 # 11,28,19
-
 nums_filtrados3 = [num*2 if num %2== 0 else num for num in nums2 if 10 <=num <=20]
 print (nums_filtrados3)
 
 frutas = ["morango", "banana", "ameixa", "pera"]
 letras_frutas = [len(fruta) for fruta in frutas]
 print (letras_frutas)
+
+nome = "Marcelo"
+nome = list(nome)
+print(nome)
+
+lista = ["al", "mar", "Anr"]
+novos_elementos = input ("Novos dados: ")
+lista.extend(novos_elementos.split(','))
+print(lista)
