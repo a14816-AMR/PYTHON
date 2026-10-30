@@ -26,3 +26,14 @@ config (memoria ="16GB", disco ="SSD 256 GB", sistema ="Windows 11")
 
 dicionario ={"Memoria": "8GB", "Disco": "SSD 512 GB", "Sistema": "Ubuntu"}
 config (**dicionario)
+
+def maiores_dois_valores (n1,n2,n3):
+    maior = n1
+    maior2 = 0
+    if n2 > maior and n2 > n3:
+        maior = n2
+        if n1 > n3:
+            maior = n1
+        else: 
+            maior = n3
+    return (maior, maior2)
